@@ -1,2 +1,26 @@
+---
+---
 
 @import "{{ site.theme }}";
+
+/* Add custom styles below this line */
+
+/* Example: Change the background and text colors */
+body {
+  background-color: #f8f3fc; /* Light purple */
+  color: #4a4a4a; /* Dark gray */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #6a1b9a; /* Purple headings */
+}
+
+a {
+  color: #9c27b0; /* Purple links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7b1fa2;
+  text-decoration: underline;
+}
